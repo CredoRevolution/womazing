@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOMAZING</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+</head>
+<body>
+    <form action="#" class="feedback">
+        <h3 class="feedback__title">
+            Заказать обратный звонок
+        </h3>
+        <input type="text" class="feedback__input" placeholder="Имя" name="name" required>
+        <input type="email" class="feedback__input" placeholder="E-mail" name="email" required>
+        <input type="tel" class="feedback__input" placeholder="Телефон" name="phone" required>
+        <button type="submit" class="feedback__btn">
+            Заказать звонок
+        </button>
+    </form>
+    <form action="#" class="feedback-success">
+        <h3 class="feedback-success__title">
+            Отлично! Мы скоро вам перезвоним.
+        </h3>
+        <button type="button" class="feedback-success__btn">
+            Закрыть
+        </button>
+    </form>
+    <div class="overlay">
+    </div>
+    <header class="header" id="header">
+        <div class="nav" id="nav">
+            <div class="container container-flex">
+                <a href="index.html" class="logo-link">
+                    <img src="img/logo.svg" alt="WOMAZING" class="logo">
+                </a>
+                <div class="hamburger-menu">
+                    <input id="menu__toggle" type="checkbox" />
+                    <label class="menu__btn" for="menu__toggle">
+                      <span></span>
+                    </label>
+                <ul class="navigation menu__box">
+                    <li class="navigation__link ">
+                        <a href="index.html">
+                            Главная
+                        </a>
+                    </li>
+                    <li class="navigation__link dropdown">
+                        <a href="shop.html">
+                            Магазин
+                        </a>
+                        <div class="dropdown-content dropdown-content_header">
+                            <a href="#" class="dropdown-content-link">Пальто</a>
+                            <a href="#" class="dropdown-content-link">Свитшоты</a>
+                            <a href="#" class="dropdown-content-link">Кардиганы</a>
+                            <a href="#" class="dropdown-content-link">Толстовки</a>
+                        </div>
+                    </li>
+                    <li class="navigation__link active">
+                        <a href="about.html">
+                            О бренде
+                        </a>
+                    </li>
+                    <li class="navigation__link">
+                        <a href="contacts.html">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+                </div>
+                <div class="contacts">
+                    <div class="phone">
+                        <button type="button" class="phone-img">
+                            <!-- <img src="img/telephone 1.svg" alt="phone" class="phone-img"> -->
+                        </button>
+                        <a class="phone-link" href="tel:+74958235412">+7 (495) 823-54-12</a>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <img src="img/shopping-bags 1.svg" alt="cart">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="about" id="about">
+        <div class="container">
+            <h1 class="about__title">
+                О бренде
+            </h1>
+            <ul class="breadcrumb">
+                <li><a href="index.html">Главная</a></li>
+                <li> <span>О бренде</span> </li>
+            </ul>
+            <div class="about__box">
+                <img src="img/about__box1.jpg" alt="woman" class="box__image">
+                <div class="box-offer">
+                    <h3 class="box-offer__title">
+                        Идея и женщина
+                    </h3>
+                    <p class="box-offer__text">
+                        Womazing была основана в 2010-ом и стала одной из самых успешных компаний нашей страны. Как и
+                        многие итальянские фирмы, Womazing остаётся семейной компанией, хотя ни один из членов семьи не
+                        является модельером.
+                        <br>
+                        <br>
+                        Мы действуем по успешной формуле, прибегая к услугам известных модельеров для создания своих
+                        коллекций. Этот метод был описан критиком моды Колином Макдауэллом как форма дизайнерского
+                        со-творчества, характерная для ряда итальянских prêt-a-porter компаний.
+                    </p>
+                </div>
+            </div>
+            <div class="about__box">
+                <div class="box-offer">
+                    <h3 class="box-offer__title">
+                        Магия в деталях
+                    </h3>
+                    <p class="box-offer__text">
+                        Первый магазин Womazing был открыт в маленьком городке на севере страны в 2010-ом году. Первая
+                        коллекция состояла из двух пальто и костюма, которые были копиями парижских моделей.
+                        <br>
+                        <br>
+                        Несмотря на то, что по образованию основательница была адвокатом, ее семья всегда была тесно
+                        связана с шитьём (прабабушка основательницы шила одежду для женщин, а мать основала
+                        профессиональную школу кроя и шитья). Стремление производить одежду для масс несло в себе
+                        большие перспективы, особенно в то время, когда высокая мода по-прежнему доминировала, а рынка
+                        качественного prêt-a-porter попросту не существовало.
+                    </p>
+                </div>
+                <img src="img/about__box2.jpg" alt="woman" class="box__image">
+            </div>
+            <a href="shop.html" class="about__btn">
+                Перейти в магазин
+            </a>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="container container-flex">
+            <ul class="footer-copyright">
+                <a href="index.html" class="logo-link">
+                    <img src="img/logo.svg" alt="WOMAZING" class="footer-logo">
+                </a>
+                <li class="footer-copyright__item">
+                    <span>© Все права защищены</span>
+                </li>
+                <li class="footer-copyright__item footer-copyright__item_link">
+                    <a href="#">Политика конфиденциальности</ф>
+                </li>
+                <li class="footer-copyright__item footer-copyright__item_link">
+                    <a href="#">Публичная оферта</a>
+                </li>
+            </ul>
+            <ul class="navigation navigation-footer">
+                <li class="navigation__link">
+                    <a href="index.html">
+                        Главная
+                    </a>
+                </li>
+                <li class="navigation__link dropdown">
+                    <a href="shop.html">
+                        Магазин
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-content-link">Пальто</a>
+                        <a href="#" class="dropdown-content-link">Свитшоты</a>
+                        <a href="#" class="dropdown-content-link">Кардиганы</a>
+                        <a href="#" class="dropdown-content-link">Толстовки</a>
+                    </div>
+                </li>
+                <li class="navigation__link active">
+                    <a href="#">
+                        О бренде
+                    </a>
+                </li>
+                <li class="navigation__link">
+                    <a href="contacts.html">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+            <ul class="footer-socials">
+                <li class="footer-socials__item">
+                    <!--/noindex-->
+                    <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                        <img src="img/instagram1.svg" alt="instagram">
+                    </a>
+                    <!--/noindex-->
+                </li>
+                <li class="footer-socials__item">
+                    <!--noindex-->
+                    <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                        <img src="img/facebook1.svg" alt="facebook">
+                    </a>
+                    <!--/noindex-->
+                </li>
+                <li class="footer-socials__item">
+                    <!--/noindex-->
+                    <a href="#" rel="nofollow noopener noreferrer" target="_blank">
+                        <img src="img/twitter1.svg" alt="twitter">
+                    </a>
+                    <!--/noindex-->
+                </li>
+            </ul>
+                <img src="img/visa-mastercard1.png" alt="visa-mastercard">
+            </ul>
+        </div>
+    </footer>
+    <!-- JQUERY -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <!-- SLIDER -->
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- MAIN JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
